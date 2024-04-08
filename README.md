@@ -1,4 +1,4 @@
-# Covid-19-Data-Analysis-using-SQL
+# Covid-19-Data-Exploration-using-SQL
 
 
 The global impact of the COVID-19 pandemic has been profound, resulting in significant loss of life and widespread disruption. The selection of this dataset was motivated by the desire to meticulously examine and analyze the data, particularly focusing on countries with the highest mortality rates among infected individuals. Additionally, the objective is to ascertain the percentage of population affected by the virus and the corresponding vaccination coverage aimed at combatting its spread. This formal approach aims to glean valuable insights into the pandemic's effects and the effectiveness of mitigation efforts on a global scale.
@@ -8,10 +8,15 @@ The global impact of the COVID-19 pandemic has been profound, resulting in signi
 ## Dataset
 The source for the data is: https://ourworldindata.org/covid-deaths
 
-The dataset includes data on number of new cases,daily number of vaccinations, deaths across different regions.
+The dataset includes data on number of new cases,daily number of vaccinations, deaths across different regions etc.
 
 ## Technologies used ⚙️
 
-* <p> MySQL <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="35" height="35"/> </p>   
+* <p> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="65" height="65"/> </p>   
 
 
+## Data Exploration 
+
+After performing exploratory data analysis, I formulated and addressed specific questions through thorough examination of the dataset.
+
+1. 
