@@ -106,7 +106,7 @@ ORDER BY total_hosp_patients DESC LIMIT 10;
 
 
 ## Summary of Findings
-Based on the insights derived from the COVID-19 data: :
+Based on the insights derived from the COVID-19 data: 
 
 * The total number of confirmed COVID-19 cases worldwide was 765,222,168 cases.
 * The total number of recorded deaths was 6,921,601.
