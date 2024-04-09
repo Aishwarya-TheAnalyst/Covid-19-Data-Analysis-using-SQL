@@ -6,7 +6,7 @@ The global impact of the COVID-19 pandemic has been profound, resulting in signi
 <img  align="right" src="https://d.newsweek.com/en/full/2312119/covid-evolution.png?w=1600&h=900&q=88&f=f5fb873dbdfd386fd9a26c6e23a73efd"  width=400 align="Center">
 
 ### Dataset
-The source for the data is: https://ourworldindata.org/covid-deaths
+The source for the data is: https://ourworldindata.org/covid-deaths starting from 3rd January, 2020 to 9th May, 2023.
 
 The dataset includes data on number of new cases,daily number of vaccinations, deaths across different regions etc.
 
@@ -67,8 +67,6 @@ COUNT(Distinct location) as TotalLocations
 from coviddeaths
 where continent!='';
 
-<img src="https://github.com/Aishwarya-TheAnalyst/Covid-19-Data-Exploration-using-SQL/blob/main/Images/Death%20and%20Recovery%20Rate.JPG">
-
 ##### 7. Which countries have administered at least one dose of COVID-19 vaccination, and what is the count of vaccinated individuals in each country?
 
 SELECT location, SUM(people_vaccinated) AS vaccinated_with_at_least_one_dose
@@ -102,10 +100,24 @@ GROUP BY location;
 SELECT location, SUM(hosp_patients) AS total_hosp_patients
 FROM coviddeaths
 GROUP BY location
-ORDER BY total_hosp_patients DESC
-LIMIT 10;
+ORDER BY total_hosp_patients DESC LIMIT 10;
 
 <img src="https://github.com/Aishwarya-TheAnalyst/Covid-19-Data-Exploration-using-SQL/blob/main/Images/Highest%20Hospitalized%20Patients.JPG">
+
+
+## Summary of Findings
+Based on the insights derived from the COVID-19 data: :
+
+* The total number of confirmed COVID-19 cases worldwide was 765,222,168 cases.
+* The total number of recorded deaths was 6,921,601.
+*  The countries with the highest total number of confirmed cases were the United States, China India, France, and Germany.
+*  In terms of continents, North America had the highest total number of deaths, followed by South America, Asia, and Europe.
+*  United states, Brazil, India, Russia and Mexico recorded the highest deaths.
+  
+
+
+
+
 
 
    
